@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Implement SAML 2.0 Single Sign-On (SSO) using Okta as the Identity Provider (IdP). This skill covers end-to-end configuration of SAML authentication flows, attribute mapping, certificate management, and security hardening for enterprise SSO deployments.
 
+
+## When to Use
+
+- When deploying or configuring implementing saml sso with okta capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Configure Okta as a SAML 2.0 Identity Provider
 - Implement SP-initiated and IdP-initiated SSO flows

@@ -14,6 +14,21 @@ license: Apache-2.0
 
 Sliver is an open-source, cross-platform adversary emulation framework developed by BishopFox, written in Go. It provides red teams with implant generation, multi-protocol C2 channels (mTLS, HTTP/S, DNS, WireGuard), multi-operator support, and extensive post-exploitation capabilities. Sliver supports beacon (asynchronous) and session (interactive) modes, making it suitable for both long-haul operations and interactive exploitation. A properly architected Sliver infrastructure uses redirectors, domain fronting, and HTTPS certificates to maintain operational resilience and avoid detection.
 
+
+## When to Use
+
+- When deploying or configuring building c2 infrastructure with sliver framework capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Deploy a Sliver team server on hardened cloud infrastructure

@@ -15,6 +15,21 @@ license: Apache-2.0
 
 # Performing Container Escape Detection
 
+
+## When to Use
+
+- When conducting security assessments that involve performing container escape detection
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with container security concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Instructions
 
 Audit Kubernetes pods for container escape vectors including privileged mode,

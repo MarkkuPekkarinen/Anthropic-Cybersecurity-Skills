@@ -14,6 +14,21 @@ license: Apache-2.0
 
 EvilGinx3 is a man-in-the-middle attack framework used for phishing login credentials along with session cookies, enabling bypass of multi-factor authentication (MFA). Unlike traditional credential phishing that only captures usernames and passwords, EvilGinx3 operates as a transparent reverse proxy between the victim and the legitimate authentication service, intercepting the full authentication flow including MFA tokens and session cookies. This makes it the primary tool for red teams demonstrating the risk of adversary-in-the-middle (AiTM) attacks against organizations relying solely on MFA for protection.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing initial access with evilginx3
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Deploy EvilGinx3 with custom phishlets targeting authorized scope

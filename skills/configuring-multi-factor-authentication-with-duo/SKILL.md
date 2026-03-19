@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Deploy Cisco Duo multi-factor authentication across enterprise applications, VPN, RDP, and SSH access points. This skill covers Duo integration methods, adaptive authentication policies, device trust assessment, and phishing-resistant MFA deployment aligned with NIST 800-63B AAL2/AAL3 requirements.
 
+
+## When to Use
+
+- When deploying or configuring configuring multi factor authentication with duo capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Configure Duo MFA for VPN, RDP, SSH, and web applications
 - Implement adaptive access policies based on user, device, and network context

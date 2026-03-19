@@ -17,6 +17,21 @@ license: Apache-2.0
 
 DCSync is an attack technique that abuses the Microsoft Directory Replication Service Remote Protocol (MS-DRSR) to impersonate a Domain Controller and request password data from the target DC. The attack was introduced by Benjamin Delpy (Mimikatz author) and Vincent Le Toux, leveraging the DS-Replication-Get-Changes and DS-Replication-Get-Changes-All extended rights. Any principal (user or computer) with these rights can replicate password hashes for any account in the domain, including the KRBTGT account. With the KRBTGT hash, attackers can forge Golden Tickets for indefinite domain persistence. DCSync is categorized as MITRE ATT&CK T1003.006 and is a critical post-exploitation technique used by APT groups including APT28 (Fancy Bear), APT29 (Cozy Bear), and FIN6.
 
+
+## When to Use
+
+- When conducting security assessments that involve conducting domain persistence with dcsync
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Identify accounts with DCSync (replication) rights in Active Directory

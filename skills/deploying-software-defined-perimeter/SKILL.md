@@ -24,6 +24,21 @@ A Software-Defined Perimeter (SDP) implements zero trust by creating a dynamical
 
 This skill covers deploying SDP using the CSA v2.0 specification, implementing Single Packet Authorization (SPA), configuring the SDP controller and gateway, and validating the deployment against NIST SP 800-207 requirements.
 
+
+## When to Use
+
+- When deploying or configuring deploying software defined perimeter capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with zero trust architecture concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Architecture
 
 ### SDP Components (CSA Specification)

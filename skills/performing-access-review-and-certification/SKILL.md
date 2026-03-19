@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Conduct systematic access reviews and certifications to ensure users have appropriate access rights aligned with their roles. This skill covers review campaign design, reviewer selection, risk-based prioritization, micro-certification strategies, and remediation tracking for compliance with SOX, HIPAA, and PCI DSS requirements.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing access review and certification
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Design and execute access review campaigns across enterprise applications
 - Implement risk-based prioritization for review scope

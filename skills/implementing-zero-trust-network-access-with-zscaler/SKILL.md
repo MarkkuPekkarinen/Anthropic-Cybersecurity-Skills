@@ -24,6 +24,21 @@ Zero Trust Network Access (ZTNA) replaces traditional VPN architectures by enfor
 
 This skill covers end-to-end deployment of ZPA including connector setup, application segmentation, policy configuration, and integration with identity providers for continuous verification.
 
+
+## When to Use
+
+- When deploying or configuring implementing zero trust network access with zscaler capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with zero trust architecture concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Architecture
 
 ### Zscaler Private Access Components

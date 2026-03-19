@@ -14,6 +14,21 @@ license: Apache-2.0
 
 LaZagne is an open-source post-exploitation tool designed to retrieve credentials stored on local systems. It supports Windows, Linux, and macOS, with the most extensive module library for Windows. LaZagne recovers passwords from browsers (Chrome, Firefox, Edge, Opera), email clients (Outlook, Thunderbird), databases (PostgreSQL, MySQL, SQLite), system stores (Windows Credential Manager, LSA secrets, DPAPI), Wi-Fi profiles, Git credentials, and dozens of other applications. The tool is categorized under MITRE ATT&CK T1555 (Credentials from Password Stores) and is listed as software S0349. Red teams use LaZagne after gaining initial access to harvest stored credentials that enable lateral movement and privilege escalation.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing credential access with lazagne
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Deploy LaZagne on compromised Windows, Linux, or macOS endpoints

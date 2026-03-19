@@ -17,6 +17,21 @@ license: Apache-2.0
 
 Kerberoasting is a post-exploitation technique that targets service accounts in Active Directory by requesting Kerberos TGS (Ticket Granting Service) tickets for accounts with Service Principal Names (SPNs) set. These tickets are encrypted with the service account's NTLM hash, allowing offline brute-force cracking without generating failed login events. It is one of the most common privilege escalation paths in AD environments because any domain user can request TGS tickets.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing kerberoasting attack
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## MITRE ATT&CK Mapping
 
 - **T1558.003** - Steal or Forge Kerberos Tickets: Kerberoasting

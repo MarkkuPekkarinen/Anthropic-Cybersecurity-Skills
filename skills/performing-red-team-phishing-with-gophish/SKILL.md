@@ -13,6 +13,21 @@ author: mahipal
 license: Apache-2.0
 ---
 
+
+## When to Use
+
+- When conducting security assessments that involve performing red team phishing with gophish
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with security operations concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Instructions
 
 1. Install dependencies: `pip install gophish requests`

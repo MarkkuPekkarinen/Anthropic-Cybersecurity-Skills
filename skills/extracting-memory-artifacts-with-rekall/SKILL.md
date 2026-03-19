@@ -15,6 +15,21 @@ license: Apache-2.0
 
 # Extracting Memory Artifacts with Rekall
 
+
+## When to Use
+
+- When performing authorized security testing that involves extracting memory artifacts with rekall
+- When analyzing malware samples or attack artifacts in a controlled environment
+- When conducting red team exercises or penetration testing engagements
+- When building detection capabilities based on offensive technique understanding
+
+## Prerequisites
+
+- Familiarity with security operations concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Instructions
 
 Use Rekall to analyze memory dumps for signs of compromise including process

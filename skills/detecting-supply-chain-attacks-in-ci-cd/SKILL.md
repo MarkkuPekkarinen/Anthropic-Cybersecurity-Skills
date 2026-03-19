@@ -15,6 +15,21 @@ license: Apache-2.0
 
 # Detecting Supply Chain Attacks in CI/CD
 
+
+## When to Use
+
+- When investigating security incidents that require detecting supply chain attacks in ci cd
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
+## Prerequisites
+
+- Familiarity with security operations concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Instructions
 
 Scan CI/CD workflow files for supply chain risks by parsing GitHub Actions YAML,

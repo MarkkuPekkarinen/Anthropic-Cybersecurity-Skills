@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Deploy CyberArk Privileged Access Management to discover, vault, rotate, and monitor privileged credentials across enterprise infrastructure. This skill covers vault architecture, session isolation, credential rotation policies, and integration with NIST 800-53 access control requirements.
 
+
+## When to Use
+
+- When deploying or configuring implementing privileged access management with cyberark capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Design CyberArk vault architecture with high availability
 - Implement automated privileged credential discovery and onboarding

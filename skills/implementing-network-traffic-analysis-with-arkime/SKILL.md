@@ -17,6 +17,21 @@ license: Apache-2.0
 
 # Implementing Network Traffic Analysis with Arkime
 
+
+## When to Use
+
+- When deploying or configuring implementing network traffic analysis with arkime capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with network security concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Instructions
 
 1. Install dependencies: `pip install requests`

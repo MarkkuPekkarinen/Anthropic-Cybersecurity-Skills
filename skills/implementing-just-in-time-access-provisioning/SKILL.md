@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Implement Just-In-Time (JIT) access provisioning to eliminate standing privileges by granting temporary, time-bound access only when needed. This skill covers JIT architecture design, approval workflows, automatic expiration, integration with PAM and IGA platforms, and alignment with zero trust principles.
 
+
+## When to Use
+
+- When deploying or configuring implementing just in time access provisioning capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Design JIT access request and approval workflows
 - Implement time-bound access grants with automatic expiration

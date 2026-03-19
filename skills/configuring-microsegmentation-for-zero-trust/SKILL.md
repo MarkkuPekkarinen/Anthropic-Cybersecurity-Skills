@@ -24,6 +24,21 @@ Microsegmentation divides a network into granular security zones, enforcing leas
 
 This skill covers designing microsegmentation policies using workload identity, implementing host-based and network-based enforcement, and validating segmentation effectiveness with tools like Illumio Core and VMware NSX.
 
+
+## When to Use
+
+- When deploying or configuring configuring microsegmentation for zero trust capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with zero trust architecture concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Architecture
 
 ### Microsegmentation Models

@@ -17,6 +17,21 @@ license: Apache-2.0
 
 BloodHound Community Edition (CE) is a modern, web-based Active Directory reconnaissance platform developed by SpecterOps that uses graph theory to reveal hidden relationships and attack paths within AD environments. Unlike the legacy BloodHound application, BloodHound CE uses a PostgreSQL backend with a dedicated graph database, providing improved performance, a modern web UI, and enhanced API capabilities. Red teams use BloodHound CE to collect AD objects, ACLs, sessions, group memberships, and trust relationships, then visualize attack paths from compromised low-privileged accounts to high-value targets like Domain Admins. The SharpHound collector (v2 for CE) gathers data from Active Directory, while AzureHound collects from Azure AD / Entra ID environments.
 
+
+## When to Use
+
+- When conducting security assessments that involve conducting internal reconnaissance with bloodhound ce
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Deploy BloodHound CE server using Docker Compose

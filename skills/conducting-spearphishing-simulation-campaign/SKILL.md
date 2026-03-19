@@ -17,6 +17,21 @@ license: Apache-2.0
 
 Spearphishing simulation is a targeted social engineering attack vector used by red teams to gain initial access. Unlike broad phishing campaigns, spearphishing uses OSINT-derived intelligence to craft highly personalized messages targeting specific individuals. This skill covers developing pretexts, building payloads, setting up email infrastructure, executing the campaign, and tracking results.
 
+
+## When to Use
+
+- When conducting security assessments that involve conducting spearphishing simulation campaign
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Develop convincing pretexts tailored to specific target personnel

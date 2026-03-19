@@ -15,6 +15,21 @@ license: Apache-2.0
 
 # Performing Threat Emulation with Atomic Red Team
 
+
+## When to Use
+
+- When conducting security assessments that involve performing threat emulation with atomic red team
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with threat intelligence concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Instructions
 
 Use atomic-operator to execute Atomic Red Team tests and validate detection coverage

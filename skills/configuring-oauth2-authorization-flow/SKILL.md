@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Configure secure OAuth 2.0 authorization flows including Authorization Code with PKCE, Client Credentials, and Device Authorization Grant. This skill covers flow selection, PKCE implementation, token lifecycle management, scope design, and alignment with OAuth 2.1 security requirements.
 
+
+## When to Use
+
+- When deploying or configuring configuring oauth2 authorization flow capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Implement Authorization Code flow with PKCE for public and confidential clients
 - Configure Client Credentials flow for machine-to-machine communication

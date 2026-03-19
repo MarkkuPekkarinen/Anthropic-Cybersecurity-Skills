@@ -17,6 +17,21 @@ license: Apache-2.0
 
 Pass-the-Ticket (PtT) is a lateral movement technique that uses stolen Kerberos tickets (TGT or TGS) to authenticate to services without knowing the user's password. By extracting Kerberos tickets from memory (LSASS) on a compromised host, an attacker can inject those tickets into their own session to impersonate the ticket owner and access resources as that user.
 
+
+## When to Use
+
+- When conducting security assessments that involve conducting pass the ticket attack
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## MITRE ATT&CK Mapping
 
 - **T1550.003** - Use Alternate Authentication Material: Pass the Ticket

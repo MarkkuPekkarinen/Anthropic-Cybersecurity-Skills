@@ -15,6 +15,21 @@ license: Apache-2.0
 
 # Implementing Security Chaos Engineering
 
+
+## When to Use
+
+- When deploying or configuring implementing security chaos engineering capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with security operations concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Instructions
 
 Design and execute security chaos experiments that intentionally break security

@@ -17,6 +17,21 @@ license: Apache-2.0
 
 Open Source Intelligence (OSINT) gathering is the first active phase of a red team engagement, where operators collect publicly available information about the target organization to identify attack surfaces, potential targets for social engineering, technology stacks, and credential exposures. Effective OSINT directly shapes initial access strategies and reduces operational risk.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing open source intelligence gathering
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Enumerate the target organization's external attack surface (domains, IPs, cloud assets)

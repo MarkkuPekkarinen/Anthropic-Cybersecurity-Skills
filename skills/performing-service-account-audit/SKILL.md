@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Audit service accounts across enterprise infrastructure to identify orphaned, over-privileged, and non-compliant accounts. This skill covers discovery of service accounts in Active Directory, cloud platforms, databases, and applications, assessing privilege levels, identifying missing owners, and enforcing lifecycle policies.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing service account audit
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Discover all service accounts across AD, cloud, databases, and applications
 - Identify orphaned accounts with no valid owner or associated application

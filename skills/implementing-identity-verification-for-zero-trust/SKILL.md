@@ -24,6 +24,21 @@ Identity is the foundational pillar of zero trust architecture. NIST SP 800-207 
 
 This skill covers implementing phishing-resistant MFA, continuous identity verification, risk-based conditional access, and identity governance aligned with the CISA Zero Trust Maturity Model Identity Pillar.
 
+
+## When to Use
+
+- When deploying or configuring implementing identity verification for zero trust capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with zero trust architecture concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Architecture
 
 ### Identity Verification Flow
