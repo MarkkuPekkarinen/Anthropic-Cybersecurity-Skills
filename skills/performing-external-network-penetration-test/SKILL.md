@@ -15,6 +15,14 @@ license: Apache-2.0
 
 An external network penetration test simulates a real-world attacker targeting an organization's internet-facing assets such as firewalls, web servers, mail servers, DNS servers, VPN gateways, and cloud endpoints. The objective is to identify exploitable vulnerabilities before malicious actors do, following frameworks like PTES (Penetration Testing Execution Standard), OSSTMM, and NIST SP 800-115.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing external network penetration test
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Written authorization (Rules of Engagement document signed by asset owner)

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 in-toto is a CNCF graduated project that ensures the integrity of software supply chains from initiation to end-user installation. It creates a verifiable record of the entire software development lifecycle by generating cryptographically signed attestations (called "link metadata") at each step, proving what happened, who performed it, and what artifacts were produced. For container environments, in-toto verifies that images deployed to Kubernetes followed approved build processes and have not been tampered with.
 
+
+## When to Use
+
+- When deploying or configuring implementing supply chain security with in toto capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Python 3.8+ or Go runtime for in-toto client libraries

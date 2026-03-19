@@ -14,6 +14,21 @@ license: Apache-2.0
 
 SSL/TLS certificate lifecycle management encompasses the full process of requesting, issuing, deploying, monitoring, renewing, and revoking X.509 certificates. Poor certificate management is a leading cause of outages and security incidents. This skill covers automating the entire certificate lifecycle using Python and ACME protocol tools.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing ssl certificate lifecycle management
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with cryptography concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Generate Certificate Signing Requests (CSRs) programmatically

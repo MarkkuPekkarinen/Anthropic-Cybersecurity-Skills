@@ -15,6 +15,14 @@ license: Apache-2.0
 
 The NTFS Master File Table ($MFT) is the central metadata repository for every file and directory on an NTFS volume. Each file is represented by at least one 1024-byte MFT record containing attributes such as $STANDARD_INFORMATION (timestamps, permissions), $FILE_NAME (name, parent directory, timestamps), and $DATA (file content or cluster run pointers). When a file is deleted, its MFT record is marked as inactive (InUse flag cleared) but the metadata remains until the entry is reallocated by a new file. This persistence makes MFT analysis a primary technique for recovering deleted file evidence, reconstructing file system timelines, and detecting anti-forensic activity such as timestomping.
 
+
+## When to Use
+
+- When investigating security incidents that require analyzing mft for deleted file recovery
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - Forensic disk image (E01, raw/dd, VMDK, or VHDX format)

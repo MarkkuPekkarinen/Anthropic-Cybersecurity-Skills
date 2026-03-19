@@ -15,6 +15,14 @@ license: Apache-2.0
 
 A full-scope red team engagement simulates real-world adversary behavior across all phases of the cyber kill chain — from initial reconnaissance through data exfiltration — to evaluate an organization's detection, prevention, and response capabilities. Unlike penetration testing, red team operations prioritize stealth, persistence, and objective-based scenarios that mimic advanced persistent threats (APTs).
 
+
+## When to Use
+
+- When conducting security assessments that involve conducting full scope red team engagement
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Written authorization (Rules of Engagement document) signed by executive leadership

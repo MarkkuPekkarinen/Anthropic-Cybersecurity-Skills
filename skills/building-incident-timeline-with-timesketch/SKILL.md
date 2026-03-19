@@ -15,6 +15,21 @@ license: Apache-2.0
 
 Timesketch is an open-source collaborative forensic timeline analysis tool developed by Google that enables security teams to visualize and analyze chronological data from multiple sources during incident investigations. It ingests logs and artifacts from endpoints, servers, and cloud services, normalizes them into a unified searchable timeline, and provides powerful analysis capabilities including built-in analyzers, tagging, sketch annotations, and story building. Timesketch integrates with Plaso (log2timeline) for artifact parsing and supports direct CSV/JSONL ingestion for rapid timeline construction during active incidents.
 
+
+## When to Use
+
+- When deploying or configuring building incident timeline with timesketch capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with incident response concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Architecture and Components
 
 ### Core Components

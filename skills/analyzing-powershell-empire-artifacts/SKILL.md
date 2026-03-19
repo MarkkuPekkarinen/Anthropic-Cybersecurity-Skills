@@ -15,6 +15,14 @@ license: Apache-2.0
 
 PowerShell Empire is a post-exploitation framework consisting of listeners, stagers, and agents. Its artifacts leave detectable traces in Windows event logs, particularly PowerShell Script Block Logging (Event ID 4104) and Module Logging (Event ID 4103). This skill analyzes event logs for Empire's default launcher string (`powershell -noP -sta -w 1 -enc`), Base64 encoded payloads containing `System.Net.WebClient` and `FromBase64String`, known module invocations (Invoke-Mimikatz, Invoke-Kerberoast, Invoke-TokenManipulation), and staging URL patterns.
 
+
+## When to Use
+
+- When investigating security incidents that require analyzing powershell empire artifacts
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - Python 3.9+ with access to Windows Event Log or exported EVTX files

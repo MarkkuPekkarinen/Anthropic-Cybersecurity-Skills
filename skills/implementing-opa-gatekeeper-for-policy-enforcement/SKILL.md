@@ -15,6 +15,14 @@ license: Apache-2.0
 
 OPA Gatekeeper is a Kubernetes admission controller that enforces policies written in Rego. It uses ConstraintTemplates (policy blueprints with Rego logic) and Constraints (instantiated policies with parameters) to validate, mutate, or deny Kubernetes resource requests at admission time.
 
+
+## When to Use
+
+- When deploying or configuring implementing opa gatekeeper for policy enforcement capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Kubernetes cluster v1.24+

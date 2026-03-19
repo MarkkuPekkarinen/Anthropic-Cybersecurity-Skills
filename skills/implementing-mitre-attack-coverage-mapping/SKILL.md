@@ -15,6 +15,14 @@ license: Apache-2.0
 
 MITRE ATT&CK coverage mapping gives SOC teams a structured, adversary-centric lens to evaluate detection capabilities. Enterprise SIEMs on average have detection coverage for only 21% of ATT&CK techniques (2025 CardinalOps report), with 13% of existing rules being non-functional due to misconfigured data sources. Systematic coverage mapping identifies gaps, prioritizes rule development, and tracks detection maturity over time. ATT&CK v18.1 (December 2025) is the latest version.
 
+
+## When to Use
+
+- When deploying or configuring implementing mitre attack coverage mapping capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Access to MITRE ATT&CK Navigator (https://mitre-attack.github.io/attack-navigator/)

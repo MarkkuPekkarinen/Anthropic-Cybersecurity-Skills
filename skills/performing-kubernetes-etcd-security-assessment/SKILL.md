@@ -15,6 +15,14 @@ license: Apache-2.0
 
 etcd is the distributed key-value store that serves as Kubernetes' backing store for all cluster data, including Secrets, RBAC policies, ConfigMaps, and workload configurations. Without proper hardening, etcd exposes all cluster secrets in plaintext, making it the highest-value target for attackers who gain control plane access. A comprehensive security assessment covers encryption at rest, TLS for transport, access control, backup security, and network isolation.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing kubernetes etcd security assessment
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Access to Kubernetes control plane nodes

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 API Security Posture Management (API-SPM) provides continuous visibility into an organization's API attack surface by automatically discovering, classifying, and risk-scoring all APIs including internal, external, partner, and shadow endpoints. Unlike point-in-time testing tools, API-SPM operates continuously to detect configuration drift, policy violations, missing security controls, sensitive data exposure, and compliance gaps. It aggregates findings from DAST, SAST, SCA, and runtime monitoring tools to provide a unified view of API risk posture across the organization.
 
+
+## When to Use
+
+- When deploying or configuring implementing api security posture management capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - API gateway with traffic logging (Kong, AWS API Gateway, Apigee, Envoy)

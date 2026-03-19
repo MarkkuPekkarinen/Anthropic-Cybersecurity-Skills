@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Deploy privileged access management for database systems including Oracle, SQL Server, PostgreSQL, and MySQL. Covers session proxy configuration, credential vaulting, query auditing, dynamic credential generation, and least-privilege database roles.
 
+
+## When to Use
+
+- When deploying or configuring implementing pam for database access capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Implement comprehensive implementing pam for database access capability
 - Establish automated discovery and monitoring processes

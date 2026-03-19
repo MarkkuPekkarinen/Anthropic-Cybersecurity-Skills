@@ -15,6 +15,14 @@ license: Apache-2.0
 
 ScoutSuite is an open-source multi-cloud security auditing tool developed by NCC Group that enables comprehensive security posture assessment of AWS environments. It queries AWS APIs to gather configuration data across all services, stores results locally, and generates interactive HTML reports highlighting high-risk areas. ScoutSuite is agentless and works by analyzing how cloud resources are configured, accessed, and monitored.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing aws account enumeration with scout suite
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Python 3.6+ installed

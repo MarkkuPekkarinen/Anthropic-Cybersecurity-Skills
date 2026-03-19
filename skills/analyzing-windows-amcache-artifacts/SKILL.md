@@ -17,6 +17,21 @@ license: Apache-2.0
 Extract execution evidence from Amcache.hve including application paths,
 SHA-1 hashes, timestamps, and publisher metadata for DFIR investigations.
 
+
+## When to Use
+
+- When investigating security incidents that require analyzing windows amcache artifacts
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
+## Prerequisites
+
+- Familiarity with digital forensics concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Example Output
 
 ```text

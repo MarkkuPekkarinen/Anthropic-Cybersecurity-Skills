@@ -15,6 +15,21 @@ license: Apache-2.0
 
 Velociraptor is an advanced open-source endpoint monitoring, digital forensics, and incident response platform developed by Rapid7. It uses the Velociraptor Query Language (VQL) to create custom artifacts that collect, query, and monitor almost any aspect of an endpoint. Velociraptor enables incident response teams to rapidly collect and examine forensic artifacts from across a network, supporting large-scale deployments with minimal performance impact. The client-server architecture with Fleetspeak communication enables real-time data collection from thousands of endpoints simultaneously, with offline endpoints picking up hunts when they reconnect.
 
+
+## When to Use
+
+- When deploying or configuring implementing velociraptor for ir collection capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with incident response concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Architecture
 
 ### Components

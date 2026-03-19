@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Amazon GuardDuty is a threat detection service that continuously monitors AWS accounts for malicious activity and unauthorized behavior. By integrating GuardDuty with Amazon EventBridge and AWS Lambda, security teams achieve automated, real-time responses to threats, reducing mean time to response (MTTR) from hours to seconds. GuardDuty analyzes VPC Flow Logs, CloudTrail management and data events, DNS logs, EKS audit logs, and S3 data events.
 
+
+## When to Use
+
+- When investigating security incidents that require detecting aws guardduty findings automation
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - AWS account with GuardDuty enabled

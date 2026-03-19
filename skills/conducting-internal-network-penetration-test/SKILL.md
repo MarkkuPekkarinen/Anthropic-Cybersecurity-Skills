@@ -15,6 +15,14 @@ license: Apache-2.0
 
 An internal network penetration test simulates an attacker who has already gained access to the internal network or a malicious insider. The tester operates from an "assumed breach" position — typically a standard domain workstation or network jack — and attempts lateral movement, privilege escalation, credential harvesting, and data exfiltration to determine the blast radius of a compromised endpoint.
 
+
+## When to Use
+
+- When conducting security assessments that involve conducting internal network penetration test
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Signed Rules of Engagement with internal network scope

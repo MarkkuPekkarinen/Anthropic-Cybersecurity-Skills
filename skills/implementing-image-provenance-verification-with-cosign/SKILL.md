@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Cosign is a Sigstore tool for signing, verifying, and attaching metadata to container images and OCI artifacts. It supports both key-based and keyless (OIDC) signing, integrates with Fulcio (certificate authority) and Rekor (transparency log), and enables supply chain security for container images.
 
+
+## When to Use
+
+- When deploying or configuring implementing image provenance verification with cosign capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Cosign CLI installed

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Tetragon is a CNCF project under Cilium that provides flexible Kubernetes-aware security observability and runtime enforcement using eBPF. By operating at the Linux kernel level, Tetragon can monitor and enforce policies on process execution, file access, network connections, and system calls with less than 1% performance overhead -- far more efficient than traditional user-space security agents.
 
+
+## When to Use
+
+- When deploying or configuring implementing runtime security with tetragon capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Kubernetes cluster v1.24+ with Helm 3.x installed

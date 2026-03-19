@@ -14,6 +14,21 @@ license: Apache-2.0
 
 Ed25519 is a high-performance digital signature algorithm using the Edwards curve Curve25519. It provides 128-bit security with 64-byte signatures and 32-byte keys, offering significant advantages over RSA and ECDSA including deterministic signatures (no random nonce needed), resistance to side-channel attacks, and fast verification. This skill covers implementing Ed25519 for document signing, code signing, and API authentication.
 
+
+## When to Use
+
+- When deploying or configuring implementing digital signatures with ed25519 capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with cryptography concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Generate Ed25519 key pairs for signing

@@ -17,6 +17,21 @@ license: Apache-2.0
 
 Linux privilege escalation involves elevating from a low-privilege user account to root access on a compromised system. Red teams exploit misconfigurations, vulnerable services, kernel exploits, and weak permissions to achieve root. This skill covers both manual enumeration techniques and automated tools for identifying and exploiting privilege escalation vectors.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing privilege escalation on linux
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with red teaming concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## MITRE ATT&CK Mapping
 
 - **T1548.001** - Abuse Elevation Control Mechanism: Setuid and Setgid

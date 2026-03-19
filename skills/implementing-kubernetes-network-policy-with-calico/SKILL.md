@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Calico is an open-source CNI plugin that provides fine-grained network policy enforcement for Kubernetes clusters. It implements the full Kubernetes NetworkPolicy API and extends it with Calico-specific GlobalNetworkPolicy, supporting policy ordering, deny rules, and service-account-based selectors.
 
+
+## When to Use
+
+- When deploying or configuring implementing kubernetes network policy with calico capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Kubernetes cluster (v1.24+)

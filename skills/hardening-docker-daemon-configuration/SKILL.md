@@ -15,6 +15,14 @@ license: Apache-2.0
 
 The Docker daemon (`dockerd`) runs with root privileges and controls all container operations. Hardening its configuration through `/etc/docker/daemon.json`, TLS certificates, user namespace remapping, and network restrictions is essential to prevent privilege escalation, lateral movement, and container breakout attacks.
 
+
+## When to Use
+
+- When deploying or configuring hardening docker daemon configuration capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Docker Engine 24.0+ installed

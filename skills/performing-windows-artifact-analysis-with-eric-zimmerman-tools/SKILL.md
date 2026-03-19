@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Eric Zimmerman's EZ Tools suite is a collection of open-source forensic utilities that have become the global standard for Windows digital forensics investigations. Originally developed by a former FBI agent and current SANS instructor, these tools parse and analyze critical Windows artifacts including the Master File Table ($MFT), registry hives, prefetch files, event logs, shortcut (LNK) files, and jump lists. The suite integrates with KAPE (Kroll Artifact Parser and Extractor) for automated artifact collection and processing, producing structured CSV output that can be ingested into Timeline Explorer for visual analysis. EZ Tools are widely used by law enforcement, corporate incident responders, and forensic consultants worldwide.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing windows artifact analysis with eric zimmerman tools
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Windows 10/11 or Windows Server 2016+ analysis workstation

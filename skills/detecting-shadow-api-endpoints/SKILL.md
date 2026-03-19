@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Shadow APIs are API endpoints operating within an organization's environment that are not tracked, documented, or secured. They emerge from rapid development cycles, forgotten test environments, deprecated API versions left running, third-party integrations, or developer side projects deployed without governance. Shadow APIs bypass authentication and monitoring controls, creating hidden entry points for attackers. Studies show that up to 30% of API endpoints in large organizations are undocumented, making shadow API detection a critical component of API security posture management.
 
+
+## When to Use
+
+- When investigating security incidents that require detecting shadow api endpoints
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - API gateway or reverse proxy with traffic logging (Kong, AWS API Gateway, Envoy)

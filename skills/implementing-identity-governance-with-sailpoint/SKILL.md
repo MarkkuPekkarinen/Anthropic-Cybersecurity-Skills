@@ -13,6 +13,21 @@ license: Apache-2.0
 ## Overview
 Deploy SailPoint IdentityNow or IdentityIQ for identity governance and administration. Covers identity lifecycle management, access request workflows, certification campaigns, role mining, SOD policy enforcement, and compliance reporting for enterprise IAM.
 
+
+## When to Use
+
+- When deploying or configuring implementing identity governance with sailpoint capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with identity access management concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 - Implement comprehensive implementing identity governance with sailpoint capability
 - Establish automated discovery and monitoring processes

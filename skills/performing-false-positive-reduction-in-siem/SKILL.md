@@ -15,6 +15,21 @@ license: Apache-2.0
 
 False positive alerts are non-malicious events that trigger security rules, overwhelming SOC analysts with noise. Studies show that up to 45% of SIEM alerts are false positives, and a typical SOC analyst can only investigate 20-25 alerts per shift effectively. Reducing false positives requires systematic tuning across thresholds, correlation logic, allowlists, enrichment, and continuous validation. SIEM rules should be reviewed on a quarterly cycle at minimum.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing false positive reduction in siem
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with soc operations concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## False Positive Reduction Techniques
 
 ### 1. Identify the Noisiest Rules

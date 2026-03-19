@@ -15,6 +15,21 @@ license: Apache-2.0
 
 Active Directory (AD) compromise investigation is a critical incident response capability that focuses on identifying how attackers gained access to domain services, what persistence mechanisms they established, and the scope of credential compromise. Since 88% of breaches involve compromised credentials (Verizon 2025 DBIR), AD is the primary target for enterprise-wide attacks. Investigators must analyze NTDS.dit database integrity, Kerberos ticket-granting activity, Group Policy modifications, replication metadata, and privileged group membership changes to reconstruct the attack chain and determine full compromise scope.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing active directory compromise investigation
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with incident response concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Key Investigation Areas
 
 ### 1. NTDS.dit Database Analysis

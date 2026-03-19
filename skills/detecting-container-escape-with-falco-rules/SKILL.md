@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Falco is a CNCF-graduated runtime security tool that monitors Linux syscalls to detect anomalous container behavior. It uses a rules engine to identify container escape techniques such as mounting host filesystems, accessing sensitive host paths, loading kernel modules, and exploiting privileged container capabilities.
 
+
+## When to Use
+
+- When investigating security incidents that require detecting container escape with falco rules
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - Linux host with kernel 5.8+ (for eBPF driver) or kernel module support

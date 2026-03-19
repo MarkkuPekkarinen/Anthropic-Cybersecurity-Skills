@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Havoc is a modern, open-source post-exploitation command and control (C2) framework created by C5pider. It provides a collaborative multi-operator interface similar to Cobalt Strike, featuring the Demon agent for Windows post-exploitation, customizable profiles for traffic malleable configurations, and support for HTTP/HTTPS/SMB listeners. This skill covers deploying production-grade Havoc C2 infrastructure with proper OPSEC considerations for authorized red team engagements.
 
+
+## When to Use
+
+- When deploying or configuring building red team c2 infrastructure with havoc capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Ubuntu 22.04 LTS or Debian 11+ (for Teamserver)

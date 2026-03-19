@@ -15,6 +15,14 @@ license: Apache-2.0
 
 GraphQL depth limit attacks exploit the recursive nature of GraphQL schemas to craft deeply nested queries that consume excessive server resources, leading to denial of service. Unlike REST APIs with fixed endpoints, GraphQL allows clients to request arbitrary data structures. When schemas contain circular relationships (e.g., User -> Posts -> Author -> Posts), attackers can create queries that recurse indefinitely, overwhelming the server's CPU, memory, database connections, and network bandwidth.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing graphql depth limit attack
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Target GraphQL API endpoint with introspection enabled or known schema

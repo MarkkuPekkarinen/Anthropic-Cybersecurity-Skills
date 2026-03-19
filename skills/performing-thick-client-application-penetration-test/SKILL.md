@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Thick client (fat client) penetration testing assesses the security of desktop applications that run locally on user machines and communicate with backend servers. Unlike web applications, thick clients present a broader attack surface including local file storage, binary analysis, memory manipulation, DLL injection, process interception, and client-server communication. Common targets include banking applications, ERP clients (SAP GUI), trading platforms, healthcare systems, and legacy enterprise software.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing thick client application penetration test
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Application installer and valid credentials

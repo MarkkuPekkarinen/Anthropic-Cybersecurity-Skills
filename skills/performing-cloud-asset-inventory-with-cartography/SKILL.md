@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Cartography is a CNCF sandbox project (originally created at Lyft) that consolidates infrastructure assets and their relationships into a Neo4j graph database. It queries cloud APIs to discover resources, maps relationships between them, and enables security teams to identify attack paths, generate asset reports, and find areas for security improvement. The graph model reveals hidden connections such as IAM permission chains, network paths, and cross-account trust relationships.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing cloud asset inventory with cartography
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Python 3.8+

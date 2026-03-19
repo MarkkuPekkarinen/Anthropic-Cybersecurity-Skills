@@ -15,6 +15,14 @@ license: Apache-2.0
 
 The CISA Zero Trust Maturity Model (ZTMM) Version 2.0, released in April 2023, provides federal agencies and organizations with a structured roadmap for adopting zero trust architecture. The model defines five core pillars -- Identity, Devices, Networks, Applications & Workloads, and Data -- each progressing through four maturity stages: Traditional, Initial, Advanced, and Optimal. Three cross-cutting capabilities (Visibility and Analytics, Automation and Orchestration, and Governance) span all pillars. This skill covers assessment, gap analysis, and progressive implementation across all pillars and maturity levels.
 
+
+## When to Use
+
+- When deploying or configuring implementing cisa zero trust maturity model capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Familiarity with NIST SP 800-207 Zero Trust Architecture

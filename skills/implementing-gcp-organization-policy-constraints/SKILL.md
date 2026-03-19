@@ -15,6 +15,14 @@ license: Apache-2.0
 
 The GCP Organization Policy Service provides centralized and programmatic control over cloud resources. Organization policies configure constraints that restrict one or more Google Cloud services, enforced at organization, folder, or project levels. They improve security by blocking external IPs, requiring encryption, and minimizing unauthorized access. Changes can take up to 15 minutes to propagate.
 
+
+## When to Use
+
+- When deploying or configuring implementing gcp organization policy constraints capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - GCP Organization with Organization Administrator role

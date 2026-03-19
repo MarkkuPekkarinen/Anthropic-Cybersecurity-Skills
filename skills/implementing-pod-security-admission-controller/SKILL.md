@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Pod Security Admission (PSA) is a built-in Kubernetes admission controller (stable since v1.25) that enforces Pod Security Standards at the namespace level. It replaces the deprecated PodSecurityPolicy (PSP) and provides three security profiles: Privileged, Baseline, and Restricted, with three enforcement modes: enforce, audit, and warn.
 
+
+## When to Use
+
+- When deploying or configuring implementing pod security admission controller capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Kubernetes v1.25+ (PSA is stable/GA)

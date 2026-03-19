@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Binary Authorization is a Google Cloud deploy-time security control that ensures only trusted container images are deployed on GKE or Cloud Run. It works through a policy-based model where images must have cryptographic attestations confirming they passed predefined requirements such as vulnerability scans, code reviews, or build pipeline verification. Continuous validation (CV) monitors running pods against policies and logs violations.
 
+
+## When to Use
+
+- When deploying or configuring implementing gcp binary authorization capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - GCP project with Binary Authorization API enabled

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Kubesec is an open-source security risk analysis tool developed by ControlPlane that inspects Kubernetes resource manifests for common exploitable risks such as privilege escalation, writable host mounts, and excessive capabilities. It assigns a numerical security score to each resource and provides actionable recommendations for hardening. Kubesec can be used as a CLI binary, Docker container, kubectl plugin, admission webhook, or REST API endpoint.
 
+
+## When to Use
+
+- When conducting security assessments that involve scanning kubernetes manifests with kubesec
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Kubernetes manifest files (YAML/JSON) for Deployments, Pods, DaemonSets, StatefulSets

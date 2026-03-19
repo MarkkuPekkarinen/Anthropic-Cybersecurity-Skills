@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Social engineering penetration testing assesses an organization's human attack surface through controlled simulation of real-world deception techniques. According to Verizon DBIR 2024, the human element is involved in approximately 68% of all breaches, with phishing remaining the dominant initial access vector. This skill covers phishing, vishing (voice phishing), smishing (SMS phishing), and physical pretexting campaigns using tools like GoPhish, the Social Engineer Toolkit (SET), and Evilginx.
 
+
+## When to Use
+
+- When conducting security assessments that involve conducting social engineering penetration test
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Written authorization from senior management (CISO/CTO)

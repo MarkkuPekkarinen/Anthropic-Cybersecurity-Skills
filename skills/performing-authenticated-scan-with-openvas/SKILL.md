@@ -15,6 +15,14 @@ license: Apache-2.0
 
 OpenVAS (Open Vulnerability Assessment Scanner) is the scanner component of the Greenbone Vulnerability Management (GVM) framework. Authenticated scans use valid credentials (SSH for Linux, SMB for Windows, ESXi for VMware) to log into target systems, enabling detection of local vulnerabilities, missing patches, and misconfigurations that unauthenticated scans cannot identify. Authenticated scans typically find 10-50x more vulnerabilities than unauthenticated scans.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing authenticated scan with openvas
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - GVM 22.x+ installed (gvmd, openvas-scanner, gsad, ospd-openvas)

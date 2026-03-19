@@ -13,6 +13,14 @@ license: Apache-2.0
 ## Overview
 Configure Datadog Cloud SIEM for security event monitoring, create detection rules, build security dashboards, and implement automated alerting for threat detection across cloud and hybrid infrastructure.
 
+
+## When to Use
+
+- When deploying or configuring implementing security monitoring with datadog capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 - Datadog account with Security Monitoring enabled
 - Python 3.9+ with `datadog-api-client` library

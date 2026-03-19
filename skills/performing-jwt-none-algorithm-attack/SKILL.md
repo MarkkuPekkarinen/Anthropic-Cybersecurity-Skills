@@ -15,6 +15,14 @@ license: Apache-2.0
 
 The JWT none algorithm attack exploits a vulnerability in JSON Web Token libraries that accept tokens with the `alg` header set to `none`, effectively bypassing signature verification. When a server processes a JWT with `"alg": "none"`, it treats the token as valid without checking any cryptographic signature, allowing attackers to forge tokens with arbitrary claims such as escalated privileges, impersonated users, or extended expiration times. This vulnerability was first disclosed by Tim McLean in 2015 and has affected multiple JWT libraries across languages.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing jwt none algorithm attack
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Target application using JWT for authentication or authorization

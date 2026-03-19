@@ -14,6 +14,21 @@ license: Apache-2.0
 
 A cryptographic audit systematically reviews an application's use of cryptographic primitives, protocols, and key management to identify vulnerabilities such as weak algorithms, insecure modes, hardcoded keys, insufficient entropy, and protocol misconfigurations. This skill covers building an automated crypto audit tool that scans Python and configuration files for common cryptographic weaknesses.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing cryptographic audit of application
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with cryptography concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Detect usage of deprecated algorithms (MD5, SHA-1, DES, RC4)

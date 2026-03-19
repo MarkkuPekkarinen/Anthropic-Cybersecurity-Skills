@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Cloud storage forensic acquisition involves collecting digital evidence from services like Google Drive, OneDrive, Dropbox, and Box through both API-based remote acquisition and local endpoint artifact analysis. Modern investigations must address the challenge that cloud-synced files may exist in multiple states: locally synchronized, cloud-only (on-demand), cached, and deleted. Endpoint devices that have synchronized with cloud storage contain a wealth of metadata about locally synced files, files present only in the cloud, and even deleted items recoverable from cache folders. API-based acquisition using service-specific APIs provides direct access to remote data with valid credentials and proper legal authorization.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing cloud storage forensic acquisition
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Legal authorization (warrant, consent, or corporate policy) for cloud data access

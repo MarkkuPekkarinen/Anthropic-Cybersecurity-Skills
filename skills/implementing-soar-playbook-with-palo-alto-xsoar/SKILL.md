@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Cortex XSOAR (formerly Demisto) is Palo Alto Networks' Security Orchestration, Automation, and Response platform. Playbooks are the core automation engine in XSOAR, enabling SOC teams to automate repetitive incident response tasks. XSOAR provides 900+ prebuilt integration packs, 87 common playbooks, and a visual drag-and-drop editor for building custom workflows. Organizations using SOAR automation reduce mean time to respond (MTTR) by 80% on average.
 
+
+## When to Use
+
+- When deploying or configuring implementing soar playbook with palo alto xsoar capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Cortex XSOAR deployed (version 8.x or later, or XSOAR hosted)

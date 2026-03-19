@@ -15,6 +15,14 @@ license: Apache-2.0
 
 API rate limiting is a critical security control that restricts the number of requests a client can make within a defined time period. It defends against denial-of-service (DDoS), brute force login attempts, credential stuffing, API scraping, and resource exhaustion attacks. Modern implementations use algorithms like token bucket, sliding window, and fixed window counters, often backed by distributed stores like Redis. Adaptive rate limiting dynamically tightens limits during detected attacks and relaxes during normal operation, achieving a 94% reduction in successful DDoS attempts compared to static IP-based approaches.
 
+
+## When to Use
+
+- When deploying or configuring implementing api abuse detection with rate limiting capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - API gateway (Kong, AWS API Gateway, Apigee) or reverse proxy (NGINX, Envoy)

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 42Crunch is an API security platform that combines Shift-Left security testing with Shield-Right runtime protection. It provides API Audit for static security analysis of OpenAPI definitions, API Conformance Scan for dynamic vulnerability detection, and API Protect for real-time threat prevention. The platform integrates into CI/CD pipelines and IDEs to identify OWASP API Security Top 10 vulnerabilities before and after deployment.
 
+
+## When to Use
+
+- When deploying or configuring implementing api security testing with 42crunch capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - 42Crunch platform account (free tier available for evaluation)

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 API schema validation enforces that all data exchanged through APIs conforms to a predefined structure defined in OpenAPI Specification (OAS) or JSON Schema documents. This prevents injection attacks (SQLi, XSS, XXE), blocks mass assignment by rejecting unknown properties, prevents data leakage by validating response schemas, and ensures type safety across all API interactions. Schema validation operates at both the API gateway level (runtime enforcement) and during development (shift-left security).
 
+
+## When to Use
+
+- When deploying or configuring implementing api schema validation security capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - OpenAPI Specification v3.0 or v3.1 for all API endpoints

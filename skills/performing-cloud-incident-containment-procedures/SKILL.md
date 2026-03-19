@@ -15,6 +15,21 @@ license: Apache-2.0
 
 Cloud incident containment requires cloud-native approaches that differ significantly from traditional on-premises response. Containment procedures must leverage platform-specific controls including security groups, IAM policies, network ACLs, and service-level isolation to restrict compromised resources while preserving forensic evidence. According to the 2025 Unit 42 Global Incident Response Report, responding to cloud incidents requires understanding shared responsibility models, ephemeral infrastructure, and API-driven operations. Effective containment involves credential revocation, resource isolation, evidence snapshot creation, and automated response playbook execution.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing cloud incident containment procedures
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
+## Prerequisites
+
+- Familiarity with incident response concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## AWS Containment Procedures
 
 ### 1. Credential Compromise Containment

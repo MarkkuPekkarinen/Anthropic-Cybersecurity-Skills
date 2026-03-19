@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Splunk Search Processing Language (SPL) is the primary query language used in Splunk Enterprise Security for building correlation searches that detect suspicious events and patterns. A well-crafted detection rule aggregates, correlates, and enriches security events to generate actionable notable events for SOC analysts. Enterprise SIEMs on average cover only 21% of MITRE ATT&CK techniques, making skilled SPL rule writing essential for closing detection gaps.
 
+
+## When to Use
+
+- When deploying or configuring building detection rule with splunk spl capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Splunk Enterprise Security (ES) deployed and configured

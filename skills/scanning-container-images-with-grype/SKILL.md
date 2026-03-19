@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Grype is an open-source vulnerability scanner from Anchore that inspects container images, filesystems, and SBOMs for known CVEs. It leverages Syft-generated SBOMs to match packages against multiple vulnerability databases including NVD, GitHub Advisories, and OS-specific feeds.
 
+
+## When to Use
+
+- When conducting security assessments that involve scanning container images with grype
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Docker or Podman installed

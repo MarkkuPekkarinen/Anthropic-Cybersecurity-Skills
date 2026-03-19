@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Active Directory (AD) penetration testing targets the central identity and access management system used by over 95% of Fortune 500 companies. The test identifies misconfigurations, weak credentials, dangerous delegation settings, vulnerable certificate templates, and attack paths that enable an attacker to escalate from a standard domain user to Domain Admin or Enterprise Admin.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing active directory penetration test
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Standard domain user credentials (minimum starting point)

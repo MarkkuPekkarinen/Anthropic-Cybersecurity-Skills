@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Amazon Macie is a fully managed data security and privacy service that uses machine learning and pattern matching to discover and protect sensitive data in Amazon S3. Macie automatically evaluates your S3 bucket inventory on a daily basis and identifies objects containing PII, financial information, credentials, and other sensitive data types. It provides two discovery approaches: automated sensitive data discovery for broad visibility and targeted discovery jobs for deep analysis.
 
+
+## When to Use
+
+- When deploying or configuring implementing aws macie for data classification capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - AWS account with S3 buckets containing data to classify

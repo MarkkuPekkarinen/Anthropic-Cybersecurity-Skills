@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Aqua Security provides Trivy, the world's most popular open-source universal security scanner, designed to find vulnerabilities, misconfigurations, secrets, SBOM data, and license issues in containers, Kubernetes, code repositories, and cloud environments. Trivy covers OS packages (Alpine, Debian, Ubuntu, RHEL, etc.) and language-specific dependencies (npm, pip, Maven, Go modules, Cargo, etc.) with vulnerability databases sourced from NVD, vendor advisories, and GitHub Security Advisories. The enterprise Aqua Platform extends Trivy with centralized policy management, runtime protection, and compliance reporting.
 
+
+## When to Use
+
+- When deploying or configuring implementing aqua security for container scanning capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Docker installed for local image scanning

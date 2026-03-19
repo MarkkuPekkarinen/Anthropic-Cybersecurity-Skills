@@ -15,6 +15,14 @@ license: Apache-2.0
 
 A pretext call (vishing) is a social engineering technique where an attacker impersonates a trusted authority figure over the phone to manipulate targets into divulging sensitive information, performing actions, or granting access. In red team engagements, pretext calls test the human element of security controls, measuring employee adherence to verification procedures and security awareness training effectiveness. MITRE ATT&CK maps this to T1566.004 (Phishing for Information: Voice) and T1598 (Phishing for Information).
 
+
+## When to Use
+
+- When conducting security assessments that involve conducting social engineering pretext call
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Written authorization specifying social engineering scope and boundaries

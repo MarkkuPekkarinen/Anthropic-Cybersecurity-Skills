@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Kubernetes RBAC regulates access to cluster resources based on roles assigned to users, groups, and service accounts. Default configurations often grant excessive permissions, and without active hardening, RBAC becomes a primary attack vector for privilege escalation, lateral movement, and data exfiltration. Hardening requires implementing least-privilege principles, eliminating unnecessary ClusterRole bindings, separating service accounts, integrating external identity providers, and continuous auditing.
 
+
+## When to Use
+
+- When deploying or configuring implementing rbac hardening for kubernetes capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Kubernetes cluster v1.24+ with RBAC enabled (default since v1.6)

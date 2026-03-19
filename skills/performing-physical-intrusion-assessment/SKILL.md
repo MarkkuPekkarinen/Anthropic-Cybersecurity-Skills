@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Physical intrusion assessment evaluates an organization's physical security controls by attempting to gain unauthorized access to facilities, server rooms, and restricted areas. This includes tailgating employees, cloning RFID access badges, bypassing locks, deploying rogue network devices, and testing security guard procedures. Physical security testing is a critical component of full-scope red team engagements, as it often provides the most direct path to network access. MITRE ATT&CK maps physical access techniques under T1200 (Hardware Additions) and T1091 (Replication Through Removable Media).
 
+
+## When to Use
+
+- When conducting security assessments that involve performing physical intrusion assessment
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Signed authorization letter (carry at all times during assessment)

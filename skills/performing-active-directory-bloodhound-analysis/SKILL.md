@@ -15,6 +15,14 @@ license: Apache-2.0
 
 BloodHound is an open-source Active Directory reconnaissance tool that uses graph theory to reveal hidden relationships, attack paths, and privilege escalation opportunities within AD environments. By collecting data with SharpHound (or AzureHound for Azure AD), BloodHound visualizes how an attacker can escalate from a low-privilege user to Domain Admin through chains of misconfigurations, group memberships, ACL abuses, and trust relationships. MITRE ATT&CK classifies BloodHound as software S0521.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing active directory bloodhound analysis
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Initial foothold on a domain-joined Windows system (or valid domain credentials)

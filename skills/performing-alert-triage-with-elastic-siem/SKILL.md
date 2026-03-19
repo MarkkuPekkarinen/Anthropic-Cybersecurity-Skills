@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Alert triage in Elastic Security is the systematic process of reviewing, classifying, and prioritizing security alerts to determine which represent genuine threats. Elastic's AI-driven Attack Discovery feature can triage hundreds of alerts down to discrete attack chains, but skilled analyst triage remains essential. A structured triage workflow typically takes 5-10 minutes per alert cluster using Elastic's built-in tools.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing alert triage with elastic siem
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Elastic Security deployed (version 8.x or later)

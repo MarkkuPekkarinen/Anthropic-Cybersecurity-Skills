@@ -15,6 +15,14 @@ license: Apache-2.0
 
 SQLite is the most widely deployed database engine in the world, used by virtually every mobile application, web browser, and many desktop applications to store user data. In digital forensics, SQLite databases are critical evidence sources containing browser history, messaging records, call logs, GPS locations, application preferences, and cached content. Forensic analysis goes beyond simple SQL queries to examine the internal B-tree page structures, freelist pages containing deleted records, Write-Ahead Log (WAL) files preserving transaction history, and unallocated space within database pages where recoverable data may persist after deletion.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing sqlite database forensics
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - DB Browser for SQLite (sqlitebrowser)

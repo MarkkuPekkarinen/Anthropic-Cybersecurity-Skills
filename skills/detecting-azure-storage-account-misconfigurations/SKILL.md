@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Azure Storage accounts are a frequent target for attackers due to misconfigured public access, long-lived SAS tokens, missing encryption, and outdated TLS versions. This skill uses the azure-mgmt-storage Python SDK with StorageManagementClient to enumerate all storage accounts in a subscription, inspect their security properties, list blob containers for public access settings, and generate a risk-scored audit report identifying critical misconfigurations.
 
+
+## When to Use
+
+- When investigating security incidents that require detecting azure storage account misconfigurations
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - Python 3.9+ with `azure-mgmt-storage`, `azure-identity`

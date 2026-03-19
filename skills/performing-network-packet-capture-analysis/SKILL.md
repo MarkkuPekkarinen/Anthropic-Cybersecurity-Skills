@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Network packet captures (PCAP/PCAPNG files) represent the ultimate source of truth about network activity and provide irrefutable evidence of communications between hosts. PCAP files log every packet transmitted over a network segment, making them vital for forensic investigations involving data exfiltration, command-and-control communications, lateral movement, malware delivery, and unauthorized access. Wireshark is the primary tool for interactive analysis, while tshark provides command-line capabilities for automated processing and scripting. Modern PCAPNG format supports additional metadata including interface descriptions, capture comments, precise timestamps, and per-packet annotations.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing network packet capture analysis
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Wireshark 4.x with protocol dissectors

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 SOAP (Simple Object Access Protocol) web services remain widely deployed in enterprise environments, financial systems, healthcare, and government integrations. Security testing of SOAP services involves analyzing WSDL (Web Services Description Language) definitions to understand available methods, testing for XML-based injection attacks (XXE, XPath injection, XML bombs), evaluating WS-Security implementation correctness, SOAPAction header spoofing, and assessing authentication and authorization controls. Unlike REST APIs, SOAP services use XML envelopes and often implement complex security standards that can be misconfigured.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing soap web service security testing
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Target SOAP web service endpoint URL

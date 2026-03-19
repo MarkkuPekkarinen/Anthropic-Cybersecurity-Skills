@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Google Apigee is an enterprise API management platform that provides native security policies for threat protection, including JSON and XML content validation, OAuth 2.0 enforcement, SpikeArrest rate limiting, regular expression threat protection, and Advanced API Security for detecting malicious clients and API abuse patterns. Apigee operates as a reverse proxy that intercepts all API traffic, applying security policies before requests reach backend services, effectively shielding APIs against the OWASP API Security Top 10 threats.
 
+
+## When to Use
+
+- When deploying or configuring implementing api threat protection with apigee capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Google Cloud Platform account with Apigee organization provisioned

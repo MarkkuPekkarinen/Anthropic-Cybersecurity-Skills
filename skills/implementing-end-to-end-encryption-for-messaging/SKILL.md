@@ -14,6 +14,21 @@ license: Apache-2.0
 
 End-to-end encryption (E2EE) ensures that only the communicating parties can read messages, with no intermediary (including the server) able to decrypt them. This skill implements a simplified version of the Signal Protocol's Double Ratchet algorithm, using X25519 for key exchange, HKDF for key derivation, and AES-256-GCM for message encryption.
 
+
+## When to Use
+
+- When deploying or configuring implementing end to end encryption for messaging capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with cryptography concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## Objectives
 
 - Implement X25519 Diffie-Hellman key exchange for session establishment

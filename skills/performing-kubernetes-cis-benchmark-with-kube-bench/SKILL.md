@@ -15,6 +15,14 @@ license: Apache-2.0
 
 kube-bench is an open-source Go tool by Aqua Security that runs the CIS Kubernetes Benchmark checks. It verifies control plane, etcd, worker node, and policy configurations against security best practices, producing actionable pass/fail/warn reports.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing kubernetes cis benchmark with kube bench
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Kubernetes cluster (v1.24+)

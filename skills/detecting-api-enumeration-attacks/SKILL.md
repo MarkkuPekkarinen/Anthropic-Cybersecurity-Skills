@@ -15,6 +15,14 @@ license: Apache-2.0
 
 API enumeration attacks occur when attackers systematically probe API endpoints with sequential or predictable identifiers to discover and access unauthorized resources. Broken Object Level Authorization (BOLA), ranked as API1:2023 in the OWASP API Security Top 10, is the most critical API vulnerability. Attackers manipulate object identifiers (user IDs, order numbers, account references) in API requests to bypass authorization and access other users' data. Detection requires monitoring for patterns of rapid sequential access attempts, authorization failures, and abnormal API usage behavior.
 
+
+## When to Use
+
+- When investigating security incidents that require detecting api enumeration attacks
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - API gateway or reverse proxy with logging enabled (Kong, AWS API Gateway, Apigee)

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Azure service principals are identity objects used by applications, services, and automation tools to access Azure resources. Attackers exploit service principals for privilege escalation, lateral movement, and persistent access. Key abuse patterns include: adding credentials to existing principals, assigning privileged roles, bypassing admin consent, and enumerating service principals for attack paths. Application ownership grants the ability to manage credentials and configure permissions, creating hidden privilege escalation paths.
 
+
+## When to Use
+
+- When investigating security incidents that require detecting azure service principal abuse
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - Azure subscription with Microsoft Entra ID P2 license

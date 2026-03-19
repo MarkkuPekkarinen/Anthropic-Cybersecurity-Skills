@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Log source onboarding is the systematic process of integrating new data sources into a SIEM platform to enable security monitoring and detection. Proper onboarding requires planning data sources, configuring collection agents, building parsers, normalizing fields to a common schema, and validating data quality. According to the UK NCSC, onboarding should prioritize log sources that provide the highest security value relative to their ingestion cost.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing log source onboarding in siem
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - SIEM platform deployed (Splunk, Elastic, Sentinel, QRadar, or similar)

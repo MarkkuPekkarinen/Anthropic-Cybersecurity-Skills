@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Software supply chain attacks exploit trust in package registries through typosquatting (registering names similar to popular packages), dependency confusion (publishing higher-version public packages matching private names), and compromised package distribution. This skill detects these attack vectors by computing Levenshtein distance between package names and popular PyPI packages, verifying package integrity via SHA-256 hash comparison, scanning for known CVEs with pip-audit, and testing dependency resolution order for confusion vulnerabilities.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing supply chain attack simulation
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Python 3.9+ with `pip-audit`, `Levenshtein`, `requests`

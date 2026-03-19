@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Wireless penetration testing evaluates the security of an organization's WiFi infrastructure including encryption strength, authentication mechanisms, rogue access point detection, client isolation, and network segmentation. Testing covers 802.11a/b/g/n/ac/ax protocols, WPA2-PSK, WPA2-Enterprise, WPA3-SAE, captive portals, and Bluetooth/BLE where in scope.
 
+
+## When to Use
+
+- When conducting security assessments that involve performing wireless network penetration test
+- When following incident response procedures for related security events
+- When performing scheduled security testing or auditing activities
+- When validating security controls through hands-on testing
+
 ## Prerequisites
 
 - Written authorization specifying wireless scope (SSIDs, BSSIDs, physical locations)

@@ -15,6 +15,14 @@ license: Apache-2.0
 
 GitLab provides an integrated DevSecOps platform that embeds security testing directly into the CI/CD pipeline. By leveraging GitLab's built-in security scanners---SAST, DAST, container scanning, dependency scanning, secret detection, and license compliance---teams can shift security left, catching vulnerabilities during development rather than post-deployment. GitLab Duo AI assists with false positive detection for SAST vulnerabilities, helping security teams focus on genuine issues.
 
+
+## When to Use
+
+- When deploying or configuring building devsecops pipeline with gitlab ci capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - GitLab Ultimate license (required for full security scanner suite)

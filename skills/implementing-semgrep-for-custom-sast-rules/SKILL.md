@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Semgrep is an open-source static analysis tool that uses pattern-matching to find bugs, enforce code standards, and detect security vulnerabilities. Custom rules are written in YAML using Semgrep's pattern syntax, making it accessible without requiring compiler knowledge. It supports 30+ languages including Python, JavaScript, Go, Java, and C.
 
+
+## When to Use
+
+- When deploying or configuring implementing semgrep for custom sast rules capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Python 3.8+ or Docker

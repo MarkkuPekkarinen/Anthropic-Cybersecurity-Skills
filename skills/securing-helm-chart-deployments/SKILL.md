@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Helm is the Kubernetes package manager. Securing Helm deployments requires validating chart provenance, scanning templates for security misconfigurations, enforcing pod security contexts, managing secrets securely, and controlling RBAC for Helm operations.
 
+
+## When to Use
+
+- When deploying or configuring securing helm chart deployments capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
 ## Prerequisites
 
 - Helm 3.12+ installed

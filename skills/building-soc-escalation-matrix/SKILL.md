@@ -15,6 +15,21 @@ license: Apache-2.0
 
 A SOC escalation matrix defines how security incidents move through the organization based on severity, impact, and response requirements. Modern SOCs use context-driven escalation combining business risk, asset criticality, and data sensitivity rather than purely severity-based models. Organizations using AI and automation in their SOC cut detection-and-containment lifecycle to approximately 161 days, an 80-day improvement over the 241-day industry average.
 
+
+## When to Use
+
+- When deploying or configuring building soc escalation matrix capabilities in your environment
+- When establishing security controls aligned to compliance requirements
+- When building or improving security architecture for this domain
+- When conducting security assessments that require this implementation
+
+## Prerequisites
+
+- Familiarity with soc operations concepts and tools
+- Access to a test or lab environment for safe execution
+- Python 3.8+ with required dependencies installed
+- Appropriate authorization for any testing activities
+
 ## SOC Tier Structure
 
 ### Tier 1 - Alert Triage Analyst

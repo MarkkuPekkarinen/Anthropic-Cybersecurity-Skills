@@ -15,6 +15,14 @@ license: Apache-2.0
 
 Broken Object Property Level Authorization (BOPLA), classified as API3:2023 in the OWASP API Security Top 10, combines two related vulnerability classes: Excessive Data Exposure (API returning more data than needed) and Mass Assignment (API accepting more data than intended). Even when APIs enforce object-level authorization correctly, they may fail to control which specific properties of an object a user can read or modify. Attackers exploit this by reading sensitive properties from API responses or injecting additional properties into request bodies to modify fields they should not have access to.
 
+
+## When to Use
+
+- When investigating security incidents that require detecting broken object property level authorization
+- When building detection rules or threat hunting queries for this domain
+- When SOC analysts need structured procedures for this analysis type
+- When validating security monitoring coverage for related attack techniques
+
 ## Prerequisites
 
 - Target API with endpoints that return or accept object data
